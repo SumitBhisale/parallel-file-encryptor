@@ -9,6 +9,7 @@ std namespace as std::string.
 
 #include <string>
 #include <fstream>
+#include <iostream>
 
 class IO{
     public:
