@@ -12,9 +12,9 @@ enum class Action
 
 struct Task
 {
-    std::string file_path;
     std::fstream f_stream;
     Action action;
+    std::string file_path;
 
     Task(std::fstream &&stream, Action act, std::string filepath):f_stream(std::move(stream)), action(act), file_path(filepath){}
 
