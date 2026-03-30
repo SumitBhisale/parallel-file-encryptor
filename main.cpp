@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
                     {
                         std::cout << "Unable to open the file: " << filePath << std::endl;
                     }
-                    processManagement.executeTasks();
+                    // processManagement.executeTasks();
                 }
                 else if(entry.is_directory())
                 {
